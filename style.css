@@ -12,8 +12,8 @@
 }
 html{
     scroll-behavior: smooth;
-    background-color: orange;
-    background-image: linear-gradient(to bottom,orange,rgb(214, 186, 133));
+    background-color: rgb(251, 210,156);
+    background-image: linear-gradient(to bottom,rgb(251, 210,156),(214, 186, 133));
     background-repeat: no-repeat;
     font-family: "Nunito", sans-serif;
 }
