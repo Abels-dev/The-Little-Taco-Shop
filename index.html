@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Little Taco Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="time.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>The Little Taco Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="hours.html">Hours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2 class="welcome">Welcome</h2>
+        <figure>
+            <img src="img/tacos_and_drink_1000x667.png" width="200" height="200" alt="tacos">
+            <figcaption class="offscreen">Tacos and A Drink</figcaption>
+        </figure>
+    </section>
+    <hr>
+    <main>
+    <article id="menu"></article>
+        <h2>Our Menu</h2>
+        <table border="1" class="table">
+            <thead>
+                <tr>
+                   <th class="menu_header th1">Tacos</th>
+                    <th class=" menu_header th2">Qty</th>
+                    <th class="menu_header th3">Price</th> 
+                 </tr>
+            </thead>
+             <tbody>
+                <tr>
+                    <th class="menu_cr">Crunchy</th>
+                    <td>1</td>
+                    <td>$1.50</td>
+                 </tr>
+                 <tr>
+                    <td>2</td>
+                    <td>$2.50</td>
+                 </tr>
+                 <tr>
+                    <td>3</td>
+                    <td>$3.25</td>
+                 </tr>
+                 <tr>
+                    <th  class="menu_sf">Soft</th>
+                    <td>1</td>
+                    <td>$2.00</td>
+                 </tr>
+                 <tr>
+                    <td>2</td>
+                    <td>$3.50</td>
+                 </tr>
+                 <tr>
+                    <td>3</td>
+                    <td>$4.50</td>
+                 </tr>
+             </tbody>
+             <tfoot>
+                <tr>
+                    <th  class="menu_cs">Chisp & Salsa $2</th>
+                 </tr>
+             </tfoot>
+        </table>
+    </article>
+    <p class="backTop">
+        <a href="#">Back to Top</a>
+   </p>
+    </main>
+    <footer>
+        <p>copyright &copy;<span id="time"></span> The Little Taco Shop</p>
+    </footer>
+</body>
+</html>

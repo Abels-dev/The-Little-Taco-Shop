@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Little Taco Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="time.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>The Little Taco Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/#menu">Menu</a></li>
+                <li><a href="hours.html">Hours</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <figure>
+            <img src="img/tacos_close_up_1000x649.png" width="200" height="200" alt="tacos">
+            <figcaption class="offscreen">Little Taco Shop Tacos</figcaption>
+        </figure>
+    </section>
+    <main>
+        <article>
+            <h2>Our Location</h2>
+            <p><div>555 Taco Temptation Lane,Suite T</div>
+            <div>Kansas City, MO 55555-5555</div>
+            <br>
+            Phone: <a href="tel:+">555-555-5555</a>
+        </p>
+            
+        </article>
+        <hr>
+        <h2>Our Contact Form </h2>
+        <form action="">
+           <fieldset>
+            <legend class="offscreen">Send us A Message</legend>
+            <div class="label">
+                <label for="Name">Name: </label> 
+            </div>
+                <input type="text" placeholder="your name here">
+            <div class="label">
+                <label for="Email">Email: </label>
+            </div>
+                <input type="email" placeholder="your email">
+            <div class="label">
+                <label for="message">Your Message: </label>
+             </div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+
+           </fieldset>
+           <button>Send</button> 
+           <button>Reset</button>
+        </form>
+        <p class="backTop">
+            <a href="#">Back to Top</a>
+        </p>
+    </main>
+    <footer>
+        <p>copyright &copy;<span id="time"></span> The Little Taco Shop</p>
+    </footer>
+</body>
+</html>
